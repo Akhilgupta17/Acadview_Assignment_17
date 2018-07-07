@@ -1,0 +1,10 @@
+import numpy as np
+a=np.random.rand(10,20)
+b=np.random.rand(20,25)
+#print(arr1)
+#print("*"*10)
+#print(arr2)
+A=(np.dot(a,b))
+print("Multiplication of Both Array IS:\n",A)
+B=np.sum(A)
+print("Sum Of The New Array Is:",B)
